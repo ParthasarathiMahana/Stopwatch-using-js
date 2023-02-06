@@ -4,7 +4,9 @@
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    background-color: midnightblue;
+    background: linear-gradient(midnightblue,rgb(22, 160, 214));
+    border-radius: 10px;
+    font-family: sans-serif;
 }
 #h-m-s{
     width: 100%;
@@ -23,7 +25,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 #st-rs{
@@ -35,16 +37,18 @@
 }
 
 .buttons{
-    height: 70%;
+    height: 50%;
     width: 40%;
-    border: 1px solid white;
+    border: 2px solid white;
 
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 3px;
     color: white;
     cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 8px;
 }
 .buttons:hover{
     opacity: 90%;
